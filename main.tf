@@ -11,7 +11,7 @@ terraform {
     organization = "terraform-cloud-organizaiton"
 
     workspaces {
-      name = "common"
+      name = "practice"
     }
   }
 }
