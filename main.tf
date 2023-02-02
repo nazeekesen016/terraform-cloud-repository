@@ -1,19 +1,11 @@
 terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.52.0"
-    }
-  }
-}
-terraform {
   cloud {
-    organization = "terraform-cloud-organizaiton"
+    organization = "terraform-cloud-organizaion"
 
     workspaces {
       name = "practice"
     }
   }
 }
-
-resource "aws_vpc" "vpc" {}
+resource "aws_vpc" "vpc" {
+}
