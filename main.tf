@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "terraform-cloud-organizaion"
+    organization = "terraform-cloud-organizaiton"
 
     workspaces {
       name = "practice"
